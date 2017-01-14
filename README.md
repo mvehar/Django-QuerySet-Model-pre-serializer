@@ -5,7 +5,6 @@ Basic serializer of Django models/QuerySets to object, which can be used for JSO
 Use at yor own risk. Code is provided "as is".
 
 ```python
-from django.forms.models import model_to_dict
 from django.db.models import Model 
 from django.db.models.fields import Field 
 from django.db.models.query import QuerySet 
