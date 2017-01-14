@@ -16,9 +16,6 @@ def qsSerialize(model, depth=1):
     if depth == 0: return None;
 
     if(isinstance(model, QuerySet)):
-        if model.count() == 1:
-            return qsSerialize(model.select_related().first(), depth)
-
         return qsSerialize(list(model.select_related().all()), depth)
         
     if(isinstance(model, list)):
