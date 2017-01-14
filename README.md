@@ -1,6 +1,8 @@
 # Django-QuerySet-serialize
 
-Basic serializer of Django models/QuerySets to object, which can be used for JSON conversion.
+Basic serializer of Django models/QuerySets to object/array, which can be used for JSON conversion.
+
+Used for Django 1.10.
 
 Use at yor own risk. Code is provided "as is".
 
